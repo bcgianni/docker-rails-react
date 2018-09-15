@@ -1,24 +1,19 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## To run the backend
 
-Things you may want to cover:
+```
+docker-compose up
+```
 
-* Ruby version
+or detached
 
-* System dependencies
+```
+docker-compose up -d
+```
 
-* Configuration
+## To run the frontend
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+yarn --cwd client start
+```
